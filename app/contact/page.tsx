@@ -1,20 +1,14 @@
-<<<<<<< HEAD
 import type { Metadata } from "next"
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 import { Navigation } from "@/components/navigation"
 import { ParticleBackground } from "@/components/particle-background"
 import { ContactForm } from "@/components/contact-form"
 
-<<<<<<< HEAD
 export const metadata: Metadata = {
   title: "Contact Madan Rajendra | Hire Flutter Developer & AI Engineer",
   description:
     "Get in touch with Madan Rajendra for project inquiries, freelance work, or collaboration. Available for full-time roles, projects, and consulting.",
 }
 
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 export default function ContactPage() {
   return (
     <main className="relative min-h-screen bg-background">
@@ -46,11 +40,7 @@ export default function ContactPage() {
           <p className="text-sm text-muted-foreground">© 2025 Madan Rajendra. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a
-<<<<<<< HEAD
               href="https://www.linkedin.com/in/madan-r-a55867282"
-=======
-              href="https://linkedin.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -58,11 +48,7 @@ export default function ContactPage() {
               LinkedIn
             </a>
             <a
-<<<<<<< HEAD
               href="https://github.com/Madancse013"
-=======
-              href="https://github.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

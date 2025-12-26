@@ -1,32 +1,22 @@
 "use client"
 
-import { notFound } from "next/navigation"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ParticleBackground } from "@/components/particle-background"
 import { Navigation } from "@/components/navigation"
-import { blogPosts } from "@/lib/blog-data"
-import { getProjectsByBlog } from "@/lib/upcoming-projects-data"
+import type { BlogPost } from "@/lib/blog-data"
+import type { UpcomingProject } from "@/lib/upcoming-projects-data"
 import { Calendar, Clock, Tag, ArrowLeft, Sparkles } from "lucide-react"
 
-export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }))
+type SimplifiedProject = Omit<UpcomingProject, "icon">
+
+type BlogPostContentProps = {
+  post: BlogPost
+  relatedPosts: BlogPost[]
+  relatedProjects: SimplifiedProject[]
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const { slug } = params
-  const post = blogPosts.find((p) => p.slug === slug)
-
-  if (!post) {
-    notFound()
-  }
-
-  const relatedPosts = blogPosts
-    .filter((p) => p.category === post.category && p.id !== post.id)
-    .slice(0, 3)
-
-  const relatedProjects = getProjectsByBlog(post.slug)
-
+export function BlogPostContent({ post, relatedPosts, relatedProjects }: BlogPostContentProps) {
   return (
     <main className="relative min-h-screen bg-background">
       <ParticleBackground />

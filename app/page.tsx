@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import type { Metadata } from "next"
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 import { Navigation } from "@/components/navigation"
 import { ParticleBackground } from "@/components/particle-background"
 import { HeroSection } from "@/components/hero-section"
@@ -14,7 +11,6 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
-<<<<<<< HEAD
 export const metadata: Metadata = {
   title: "Madan Rajendra | Flutter Developer & AI Engineer | Hire Premium Tech Talent",
   description:
@@ -25,8 +21,6 @@ export const metadata: Metadata = {
   },
 }
 
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 export default function HomePage() {
   return (
     <main className="relative min-h-screen bg-background">
@@ -72,11 +66,7 @@ export default function HomePage() {
           <p className="text-sm text-muted-foreground">© 2025 Madan Rajendra. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a
-<<<<<<< HEAD
               href="https://www.linkedin.com/in/madan-r-a55867282"
-=======
-              href="https://linkedin.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -84,11 +74,7 @@ export default function HomePage() {
               LinkedIn
             </a>
             <a
-<<<<<<< HEAD
               href="https://github.com/Madancse013"
-=======
-              href="https://github.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

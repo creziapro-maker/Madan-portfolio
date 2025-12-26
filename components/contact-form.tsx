@@ -4,12 +4,8 @@ import type React from "react"
 
 import { useState, useRef } from "react"
 import { cn } from "@/lib/utils"
-<<<<<<< HEAD
 import { Send, Mail, Linkedin, Github, Clock, CheckCircle, Phone, AlertCircle } from "lucide-react"
 import { sendContactEmail } from "@/app/actions/send-email"
-=======
-import { Send, Mail, Linkedin, Github, Clock, CheckCircle, Phone } from "lucide-react"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -20,17 +16,13 @@ export function ContactForm() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
-<<<<<<< HEAD
   const [error, setError] = useState<string | null>(null)
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
   const [focusedField, setFocusedField] = useState<string | null>(null)
   const formRef = useRef<HTMLFormElement>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-<<<<<<< HEAD
     setError(null)
 
     try {
@@ -51,18 +43,6 @@ export function ContactForm() {
     } finally {
       setIsSubmitting(false)
     }
-=======
-
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-
-    setTimeout(() => {
-      setIsSubmitted(false)
-      setFormData({ name: "", email: "", subject: "", message: "" })
-    }, 3000)
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -125,11 +105,7 @@ export function ContactForm() {
               </a>
 
               <a
-<<<<<<< HEAD
                 href="https://www.linkedin.com/in/madan-r-a55867282"
-=======
-                href="https://linkedin.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 rounded-xl glass border border-transparent hover:border-primary/30 transition-all duration-300"
@@ -145,11 +121,7 @@ export function ContactForm() {
               </a>
 
               <a
-<<<<<<< HEAD
                 href="https://github.com/Madancse013"
-=======
-                href="https://github.com"
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 rounded-xl glass border border-transparent hover:border-primary/30 transition-all duration-300"
@@ -168,12 +140,12 @@ export function ContactForm() {
             <div className="p-6 rounded-xl glass border border-border/50">
               <h3 className="text-foreground font-medium mb-4">Services Offered</h3>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Flutter Mobile App Development (iOS & Android)</li>
-                <li>• Firebase Backend & Cloud Functions</li>
-                <li>• AI/ML Integration & LLM Applications</li>
-                <li>• Full Stack Web Development (Next.js, React)</li>
-                <li>• Technical Consulting & Architecture Review</li>
-                <li>• MVP Development for Startups</li>
+                <li>{">"} Flutter Mobile App Development (iOS & Android)</li>
+                <li>{">"} Firebase Backend & Cloud Functions</li>
+                <li>{">"} AI/ML Integration & LLM Applications</li>
+                <li>{">"} Full Stack Web Development (Next.js, React)</li>
+                <li>{">"} Technical Consulting & Architecture Review</li>
+                <li>{">"} MVP Development for Startups</li>
               </ul>
             </div>
 
@@ -212,7 +184,6 @@ export function ContactForm() {
                   <h3 className="text-2xl font-bold text-foreground mb-2">Message Sent!</h3>
                   <p className="text-muted-foreground">{"Thank you for reaching out. I'll get back to you soon."}</p>
                 </div>
-<<<<<<< HEAD
               ) : error ? (
                 <div className="flex flex-col items-center justify-center py-16 text-center">
                   <div className="w-20 h-20 rounded-full bg-destructive/20 flex items-center justify-center mb-6">
@@ -227,8 +198,6 @@ export function ContactForm() {
                     Try Again
                   </button>
                 </div>
-=======
->>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               ) : (
                 <form ref={formRef} onSubmit={handleSubmit} className="relative space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
