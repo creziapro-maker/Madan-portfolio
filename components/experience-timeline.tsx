@@ -221,7 +221,7 @@ export function ExperienceTimeline() {
                       <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-cyan-500/10 to-purple-500/5 opacity-0 group-hover/card:opacity-100 transition-opacity duration-500" />
 
                       {/* Glass effect container */}
-                      <div className="relative p-8 rounded-3xl overflow-hidden backdrop-blur-xl bg-gradient-to-br from-white/8 to-white/3 border border-cyan-300/30 group-hover/card:border-cyan-300/60 transition-all duration-300">
+                      <div className="relative p-8 rounded-3xl overflow-hidden bg-gradient-to-br from-white/8 to-white/3 border border-cyan-300/30 group-hover/card:border-cyan-300/60 transition-all duration-300">
                         {/* Top accent line */}
                         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity duration-300" />
 
@@ -267,7 +267,7 @@ export function ExperienceTimeline() {
                             className="text-right flex-shrink-0"
                             whileHover={{ scale: 1.05 }}
                           >
-                            <div className="px-5 py-3 rounded-xl bg-gradient-to-br from-cyan-400/20 to-purple-400/20 border border-cyan-400/40 backdrop-blur">
+                            <div className="px-5 py-3 rounded-xl bg-gradient-to-br from-cyan-400/20 to-purple-400/20 border border-cyan-400/40">
                               <p className="text-sm font-mono text-cyan-300 font-bold">{exp.period}</p>
                               <p className="text-xs text-gray-400 mt-1.5 font-medium">{exp.location}</p>
                             </div>
