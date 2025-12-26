@@ -54,7 +54,7 @@ const experiences = [
   {
     id: "novafuze",
     company: "NovaFuze LLP",
-    role: "Software Engineer",
+    role: "Ex-Founder & Software Engineer",
     period: "2023 – 2025",
     location: "Bengaluru, India",
     description:
@@ -442,7 +442,7 @@ export function ExperienceTimeline() {
           transition={{ duration: 0.8 }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-purple-500/5 rounded-2xl" />
-          <div className="absolute inset-0 backdrop-blur-sm bg-white/3 border border-cyan-300/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-white/3 border border-cyan-300/20 rounded-2xl" />
 
           <div className="relative z-10">
             <h3 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">

@@ -2,15 +2,26 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
+<<<<<<< HEAD
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react"
+=======
+import { Github, Linkedin, Twitter, Mail, ExternalLink } from "lucide-react"
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
+<<<<<<< HEAD
     { icon: Github, href: "https://github.com/Madancse013", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/madan-r-a55867282", label: "LinkedIn" },
     { icon: Mail, href: "mailto:madancse.gcem@gmail.com", label: "Email" },
+=======
+    { icon: Github, href: "#", label: "GitHub" },
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Mail, href: "mailto:contact@madanrajendra.com", label: "Email" },
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
   ]
 
   const footerLinks = {
@@ -27,7 +38,12 @@ export function Footer() {
       { name: "Contact", href: "/contact" },
     ],
     Resources: [
+<<<<<<< HEAD
       { name: "Blog", href: "/blog" },
+=======
+      { name: "Blog", href: "#" },
+      { name: "Docs", href: "#" },
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
       { name: "Portfolio", href: "/" },
       { name: "Upcoming", href: "/upcoming" },
     ],
@@ -79,7 +95,11 @@ export function Footer() {
                 <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gradient-to-r from-cyan-400 to-purple-400 transition-all duration-300 group-hover:w-full rounded-full" />
               </Link>
               <p className="text-sm text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                 Software Engineer & Application Developer. Founder of Nuvrexio, NovaFuze LLP, and MonoMode. Building AI-powered platforms and next-generation mobile applications.
+=======
+                AI Engineer & Tech Founder building the future of development tools.
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               </p>
             </div>
 
@@ -120,7 +140,11 @@ export function Footer() {
                 © {currentYear} Madan Rajendra. All rights reserved.
               </p>
               <p className="text-xs text-slate-600 mt-1">
+<<<<<<< HEAD
                 Specialized in Flutter, Firebase, Next.js, and AI/ML integration. Expert in full-stack development, mobile apps, and cloud architecture.
+=======
+                Building AI-powered tools for modern development.
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               </p>
             </div>
 

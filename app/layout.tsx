@@ -13,6 +13,7 @@ const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrai
 const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400", variable: "--font-great-vibes" })
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: "Madan Rajendra | Hire Top Flutter Developer, AI Engineer & Software Architect | Premium Tech Talent",
   description:
     "Madan Rajendra - Award-winning Flutter developer, AI engineer, and software architect available for hire. Expert in building scalable mobile apps, AI-powered platforms, and MVP development. Founder of Nuvrexio, NovaFuze LLP, and MonoMode. Available for freelance projects, full-time roles, and tech consulting. 4+ production apps on Google Play Store.",
@@ -79,6 +80,60 @@ export const metadata: Metadata = {
     "full stack engineer",
     "backend engineer",
     "frontend developer",
+=======
+  title: "Madan Rajendra | Flutter Developer, AI Engineer & Tech Founder | Nuvrexio CEO",
+  description:
+    "Madan Rajendra is a top Flutter developer, AI engineer, and tech startup founder. CEO of Nuvrexio - building AI-powered code generation tools. Expert in Flutter app development, Firebase backend, Next.js, machine learning, and scalable mobile applications. Hire a skilled software engineer for your next project.",
+  generator: "v0.app",
+  keywords: [
+    "Madan Rajendra",
+    "Nuvrexio",
+    "Flutter developer",
+    "Flutter app development",
+    "AI engineer",
+    "software engineer",
+    "mobile app developer",
+    "tech founder",
+    "startup founder",
+    "AI code generation",
+    "Flutter expert",
+    "Firebase developer",
+    "Next.js developer",
+    "full stack developer",
+    "React developer",
+    "Dart programming",
+    "cross-platform mobile apps",
+    "iOS developer",
+    "Android developer",
+    "machine learning engineer",
+    "LLM applications",
+    "GPT integration",
+    "AI startup",
+    "tech entrepreneur",
+    "software architect",
+    "cloud computing",
+    "GPU cloud",
+    "scalable architecture",
+    "e-commerce app development",
+    "sports app development",
+    "grocery delivery app",
+    "hire Flutter developer",
+    "freelance mobile developer",
+    "India tech talent",
+    "remote software engineer",
+    "app development services",
+    "custom mobile app development",
+    "UI/UX design",
+    "product development",
+    "MVP development",
+    "tech consulting",
+    "NovaFuze",
+    "PlayNexa",
+    "CrezAIPro",
+    "Monomode",
+    "DailyKart",
+    "GSC Coach",
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
   ],
   authors: [{ name: "Madan Rajendra", url: "https://madanrajendra.com" }],
   creator: "Madan Rajendra",
@@ -97,6 +152,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+<<<<<<< HEAD
     title: "Madan Rajendra | Hire Top Flutter Developer & AI Engineer",
     description:
       "Hire Madan Rajendra for premium Flutter development, AI engineering, and custom app development. Available for full-time, freelance, and project-based work.",
@@ -108,14 +164,28 @@ export const metadata: Metadata = {
     title: "Hire Madan Rajendra | Flutter Developer & AI Engineer",
     description: "Premium tech talent - Flutter expert, AI engineer, and software architect. Available for hire.",
     creator: "@madanrajendra",
+=======
+    title: "Madan Rajendra | Flutter Developer, AI Engineer & Tech Founder",
+    description:
+      "Top Flutter developer and AI engineer building next-gen mobile apps and AI-powered developer tools. CEO of Nuvrexio.",
+    siteName: "Madan Rajendra Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Madan Rajendra | Flutter Developer & AI Engineer",
+    description: "Tech founder building AI-powered Flutter code generation tools. Expert mobile app developer.",
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
   },
   alternates: {
     canonical: "https://madanrajendra.com",
   },
   category: "technology",
+<<<<<<< HEAD
   verification: {
     google: "your-google-search-console-verification-code",
   },
+=======
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 }
 
 export const viewport: Viewport = {
@@ -129,6 +199,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+<<<<<<< HEAD
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -176,6 +247,10 @@ export default function RootLayout({
         <meta property="og:image:height" content="630" />
         <meta name="twitter:image" content="https://madanrajendra.com/og-image.png" />
       </head>
+=======
+  return (
+    <html lang="en" className="dark">
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
       <body className={`${inter.variable} ${playfair.variable} ${jetbrains.variable} ${greatVibes.variable} font-sans antialiased bg-slate-950`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Navigation />

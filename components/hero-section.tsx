@@ -59,10 +59,20 @@ export function HeroSection() {
             }`}
           >
             <p className="text-xl md:text-2xl font-medium text-primary neon-text" itemProp="jobTitle">
+<<<<<<< HEAD
               Founder of Nuvrexio | Founder of NovaFuze LLP | Founder of MonoMode
             </p>
             <p className="text-base text-muted-foreground/70 font-mono" itemProp="knowsAbout">
               Software Engineer • Application Developer • Full Stack Engineer • AI/ML Systems Architect • Mobile App Specialist
+=======
+              Founder & CEO – Nuvrexio | AI Code Generation Platform
+            </p>
+            <p className="text-lg text-muted-foreground" itemProp="affiliation">
+              Ex-Founder – NovaFuze | Sports Tech Startup
+            </p>
+            <p className="text-base text-muted-foreground/70 font-mono" itemProp="knowsAbout">
+              Expert Flutter Developer • Full Stack Engineer • AI/ML Systems Architect • Mobile App Specialist
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
             </p>
             <meta
               itemProp="description"

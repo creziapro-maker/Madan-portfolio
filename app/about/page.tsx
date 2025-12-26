@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import type { Metadata } from "next"
 import { ParticleBackground } from "@/components/particle-background"
 import { AboutContent } from "@/components/about-content"
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
   ],
 }
 
+=======
+import { ParticleBackground } from "@/components/particle-background"
+import { AboutContent } from "@/components/about-content"
+
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
 export default function AboutPage() {
   return (
     <main className="relative min-h-screen bg-slate-950">
@@ -29,7 +35,11 @@ export default function AboutPage() {
           <p className="text-sm text-gray-400">© 2025 Madan Rajendra. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a
+<<<<<<< HEAD
               href="https://www.linkedin.com/in/madan-r-a55867282"
+=======
+              href="https://linkedin.com"
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
@@ -37,7 +47,11 @@ export default function AboutPage() {
               LinkedIn
             </a>
             <a
+<<<<<<< HEAD
               href="https://github.com/Madancse013"
+=======
+              href="https://github.com"
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"

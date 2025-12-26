@@ -221,7 +221,11 @@ export function AboutContent() {
                 <p className="text-xl md:text-2xl leading-relaxed text-white font-light" itemProp="description">
                   I am a{" "}
                   <span className="text-cyan-300 font-semibold" itemProp="jobTitle">
+<<<<<<< HEAD
                     software engineer, application developer, Flutter developer, AI builder, and full-stack developer
+=======
+                    software engineer, Flutter developer, AI builder, and full-stack developer
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
                   </span>{" "}
                   building the future of AI-powered platforms and mobile applications.
                 </p>
@@ -229,10 +233,21 @@ export function AboutContent() {
                 <div className="mt-6 h-px bg-gradient-to-r from-cyan-500/50 via-purple-500/20 to-transparent" />
 
                 <p className="mt-6 text-lg text-gray-300 leading-relaxed">
+<<<<<<< HEAD
                   <span className="text-cyan-300 font-semibold">
                     Founder of Nuvrexio
                   </span>
                   , Founder of NovaFuze LLP, and Founder of MonoMode. I specialize in Flutter cross-platform development, Firebase backend systems, scalable cloud
+=======
+                  <span className="text-cyan-300 font-semibold" itemProp="worksFor">
+                    Founder & CEO of Nuvrexio
+                  </span>{" "}
+                  - a next-generation AI platform company, and{" "}
+                  <span itemProp="alumniOf" className="text-gray-400">
+                    ex-Founder of NovaFuze LLP
+                  </span>
+                  . I specialize in Flutter cross-platform development, Firebase backend systems, scalable cloud
+>>>>>>> f6b0d4e883fab79a566fd24a27ae79cbd2a4bb37
                   architectures, and LLM/generative AI integration.
                 </p>
 
